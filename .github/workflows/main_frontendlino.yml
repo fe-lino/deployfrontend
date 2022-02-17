@@ -53,4 +53,4 @@ jobs:
           app-name: 'FrontendLino'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_38EA4C71437043BE8E8069E6E3A178AD }}
-          package: .
+          package: 'build'
